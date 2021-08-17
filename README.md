@@ -69,50 +69,6 @@ NTFS, RPM, SquashFS, UDF, VHD, XAR, Z.
 
 </details>
 
-# How to deploy?
-Deploying is pretty much straight forward and is divided into several steps as follows:
-## Installing requirements
-
-- Clone this repo:
-```
-git clone https://github.com/nobita-o/Nobita-Mirror-Bot/
-cd Mirror-Bot
-```
-
-- Install requirements
-For Debian based distros
-```
-sudo apt install python3
-```
-Install Docker by following the [official Docker docs](https://docs.docker.com/engine/install/debian/)
-
-- For Arch and it's derivatives:
-```
-sudo pacman -S docker python
-```
-- Install dependencies for running setup scripts:
-```
-pip3 install -r requirements-cli.txt
-```
-## Generate Database
-<details>
-    <summary><b>Click Here For More Details</b></summary>
-
-**1. Using ElephantSQL**
-- Go to https://elephantsql.com/ and create account (skip this if you already have ElephantSQL account)
-- Hit **Create New Instance**
-- Follow the further instructions in the screen
-- Hit **Select Region**
-- Hit **Review**
-- Hit **Create instance**
-- Select your database name
-- Copy your database url, and fill to **DATABASE_URL** in config
-
-**2. Using Heroku PostgreSQL**
-<p><a href="https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1"> <img src="https://img.shields.io/badge/see%20on%20dev.to-black?style=for-the-badge&logo=dev-dot-to" width="190""/></a></p>
-
-</details>
-
 ## Setting up config file
 <details>
     <summary><b>Click Here For More Details</b></summary>
@@ -180,42 +136,11 @@ Three buttons are already added of Drive Link, Index Link, and View Link, you ca
 - **BUTTON_SIX_NAME**:
 - **BUTTON_SIX_URL**:
 
-</details>
-
-## Getting Google OAuth API credential file
-- Visit the [Google Cloud Console](https://console.developers.google.com/apis/credentials)
-- Go to the OAuth Consent tab, fill it, and save.
-- Go to the Credentials tab and click Create Credentials -> OAuth Client ID
-- Choose Desktop and Create.
-- Use the download button to download your credentials.
-- Move that file to the root of mirrorbot, and rename it to **credentials.json**
-- Visit [Google API page](https://console.developers.google.com/apis/library)
-- Search for Drive and enable it if it is disabled
-- Finally, run the script to generate **token.pickle** file for Google Drive:
-```
-pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
-python3 generate_drive_token.py
-```
-
-## Deploying
-
-- Start Docker daemon (skip if already running):
-```
-sudo dockerd
-```
-- Build Docker image:
-```
-docker build . --rm --force-rm --compress --no-cache=true --pull --file Dockerfile -t mirrorbot
-```
-- Run the image:
-```
-sudo docker run mirrorbot
-```
 
 ## Deploying on Heroku
 
 - Give stars and Fork this repo then upload **token.pickle** to your forks, or you can upload your **token.pickle** to your Index and put your **token.pickle** link to **TOKEN_PICKLE_URL** (**NOTE**: If you didn't upload **token.pickle** uploading will not work). How to generate **token.pickle**? [Read here](https://github.com/breakdowns/slam-tg-mirror-bot#getting-google-oauth-api-credential-file)
-- Hit the **DEPLOY TO HEROKU** button and follow the further instructions in the screen (**NOTE**: If vars not coming, just change deploy link to your fork, Example: `https://dashboard.heroku.com/new?template=https://github.com/Theodore-x/Nobita-Mirror-Bot`)
+- Hit the **DEPLOY TO HEROKU** button and follow the further instructions in the screen
 - Recommended to use 1 App in 1 Heroku accounts
 
 <p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
@@ -224,80 +149,6 @@ sudo docker run mirrorbot
 <p><a href="https://telegra.ph/How-to-Deploy-a-Mirror-Bot-to-Heroku-with-CLI-05-06"> <img src="https://img.shields.io/badge/see%20on%20telegraph-grey?style=for-the-badge" width="190""/></a></p>
 
 # Using Service Accounts for uploading to avoid user rate limit
-For Service Account to work, you must set **USE_SERVICE_ACCOUNTS=**"True" in config file or environment variables, 
-Many thanks to [AutoRClone](https://github.com/xyou365/AutoRclone) for the scripts.
-**NOTE**: Using Service Accounts is only recommended while uploading to a Team Drive.
-
-## Generate Service Accounts. [What is Service Account](https://cloud.google.com/iam/docs/service-accounts)
-<details>
-    <summary><b>Click Here For More Details</b></summary>
-
-Let us create only the Service Accounts that we need. 
-**Warning**: abuse of this feature is not the aim of this project and we do **NOT** recommend that you make a lot of projects, just one project and 100 SAs allow you plenty of use, its also possible that over abuse might get your projects banned by Google. 
-
-**NOTE:** 1 Service Account can copy around 750gb a day, 1 project can make 100 Service Accounts so that's 75tb a day, for most users this should easily suffice.
-```
-python3 gen_sa_accounts.py --quick-setup 1 --new-only
-```
-A folder named accounts will be created which will contain keys for the Service Accounts.
-
-Or you can create Service Accounts to current project, no need to create new one
-
-- List your projects ids
-```
-python3 gen_sa_accounts.py --list-projects
-```
-- Enable services automatically by this command
-```
-python3 gen_sa_accounts.py --enable-services $PROJECTID
-```
-- Create Sevice Accounts to current project
-```
-python3 gen_sa_accounts.py --create-sas $PROJECTID
-```
-- Download Sevice Accounts as accounts folder
-```
-python3 gen_sa_accounts.py --download-keys $PROJECTID
-```
-If you want to add Service Accounts to Google Group, follow these steps
-
-- Mount accounts folder
-```
-cd accounts
-```
-- Grab emails form all accounts to emails.txt file that would be created in accounts folder
-```
-grep -oPh '"client_email": "\K[^"]+' *.json > emails.txt
-```
-- Unmount acounts folder
-```
-cd -
-```
-Then add emails from emails.txt to Google Group, after that add Google Group to your Shared Drive and promote it to manager.
-
-**NOTE**: If you have created SAs in past from this script, you can also just re download the keys by running:
-```
-python3 gen_sa_accounts.py --download-keys project_id
-```
-
-</details>
-
-## Add all the Service Accounts to the Team Drive
-- Run:
-```
-python3 add_to_team_drive.py -d SharedTeamDriveSrcID
-```
-
-# Youtube-dl authentication using [.netrc](https://github.com/breakdowns/slam-tg-mirror-bot/blob/master/.netrc) file
-For using your premium accounts in Youtube-dl or for protected Index Links, edit the netrc file according to following format:
-```
-machine host login username password my_youtube_password
-```
-For Index Link with only password without username, even http auth will not work, so this is the solution.
-```
-machine example.workers.dev password index_password
-```
-Where host is the name of extractor (eg. Youtube, Twitch). Multiple accounts of different hosts can be added each separated by a new line.
 
 # Contact Me
 
