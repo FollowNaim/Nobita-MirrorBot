@@ -129,7 +129,6 @@ Three buttons are already added of Drive Link, Index Link, and View Link, you ca
 - **BUTTON_SIX_URL**:
 
 
-
 ## Deploying on Heroku
 
 - Give stars and Fork this repo then upload **token.pickle** to your forks, or you can upload your **token.pickle** to your Index and put your **token.pickle** link to **TOKEN_PICKLE_URL** (**NOTE**: If you didn't upload **token.pickle** uploading will not work). How to generate **token.pickle**? [Read here](https://github.com/breakdowns/slam-tg-mirror-bot#getting-google-oauth-api-credential-file)
