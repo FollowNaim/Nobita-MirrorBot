@@ -128,6 +128,7 @@ Three buttons are already added of Drive Link, Index Link, and View Link, you ca
 - **BUTTON_SIX_NAME**:
 - **BUTTON_SIX_URL**:
 
+</details>
 
 ## Deploying on Heroku
 
