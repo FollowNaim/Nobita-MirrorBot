@@ -1,6 +1,7 @@
 [![Nobita](https://telegra.ph/file/446a798a9ac1b8c9db91d.png)](https://youtu.be/Pk_TthHfLeE)
 
 # Nobita Mirror Bot
+# Owner [🅝🅞🅑🅘🅣🅐](https://t.me/nobita_o)
 ![GitHub Repo stars](https://img.shields.io/github/stars/breakdowns/slam-mirrorbot?color=blue&style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/breakdowns/slam-tg-mirror-bot?color=green&style=flat)
 ![GitHub contributors](https://img.shields.io/github/contributors/breakdowns/slam-tg-mirror-bot?style=flat)
