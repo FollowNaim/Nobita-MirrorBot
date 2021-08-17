@@ -326,9 +326,9 @@ except KeyError:
 try:
     IMAGE_URL = getConfig('IMAGE_URL')
     if len(IMAGE_URL) == 0:
-        IMAGE_URL = 'https://telegra.ph/file/db03910496f06094f1f7a.jpg'
+        IMAGE_URL = 'https://telegra.ph/file/446a798a9ac1b8c9db91d.png'
 except KeyError:
-    IMAGE_URL = 'https://telegra.ph/file/db03910496f06094f1f7a.jpg'
+    IMAGE_URL = 'https://telegra.ph/file/446a798a9ac1b8c9db91d.png'
 
 IGNORE_PENDING_REQUESTS = False
 try:
@@ -339,15 +339,15 @@ except KeyError:
 try:
     FINISHED_PROGRESS_STR = getConfig('FINISHED_PROGRESS_STR')
     if len(FINISHED_PROGRESS_STR) == 0:
-        FINISHED_PROGRESS_STR = '●'
+        FINISHED_PROGRESS_STR = ''
 except KeyError:
-    FINISHED_PROGRESS_STR = '●'
+    FINISHED_PROGRESS_STR = ''
 try:
     UNFINISHED_PROGRESS_STR = getConfig('UNFINISHED_PROGRESS_STR')
     if len(UNFINISHED_PROGRESS_STR) == 0:
-        UNFINISHED_PROGRESS_STR = '○'
+        UNFINISHED_PROGRESS_STR = ''
 except KeyError:
-    UNFINISHED_PROGRESS_STR = '○'
+    UNFINISHED_PROGRESS_STR = ''
 try:
     TIMEZONE = getConfig('TIMEZONE')
     if len(TIMEZONE) == 0:
