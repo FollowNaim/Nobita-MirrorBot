@@ -69,18 +69,6 @@ NTFS, RPM, SquashFS, UDF, VHD, XAR, Z.
 
 </details>
 
-## Setting up config file
-<details>
-    <summary><b>Click Here For More Details</b></summary>
-
-```
-cp config_sample.env config.env
-```
-- Remove the first line saying:
-```
-_____REMOVE_THIS_LINE_____=True
-```
-Fill up rest of the fields. Meaning of each fields are discussed below:
 ### Required Field
 - **BOT_TOKEN**: The Telegram bot token that you get from [@BotFather](https://t.me/BotFather)
 - **TELEGRAM_API**: This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org DO NOT put this in quotes.
