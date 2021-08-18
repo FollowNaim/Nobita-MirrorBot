@@ -44,7 +44,7 @@ def stats(update, context):
             f'<b>CPU:</b> {cpuUsage}%\n' \
             f'<b>RAM:</b> {memory}%\n' \
             f'<b>DISK:</b> {disk}%'
-            f'Owner: @nobita_o
+            f'<b>Owner: @nobita_o</b>
     update.effective_message.reply_photo(IMAGE_URL, stats, parse_mode=ParseMode.HTML)
 
 
