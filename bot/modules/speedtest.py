@@ -8,7 +8,7 @@ from telegram.ext import Filters, CommandHandler
 
 def speedtest(update, context):
     message = update.effective_message
-    ed_msg = message.reply_text("Running Speed Test . . . ")
+    ed_msg = message.reply_text("Hold on..Running Speed Test . . . ")
     test = Speedtest()
     test.get_best_server()
     test.download()
