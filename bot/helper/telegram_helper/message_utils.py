@@ -94,7 +94,6 @@ def update_all_messages():
         dlspeed = get_readable_file_size(dlspeed_bytes)
         ulspeed = get_readable_file_size(uldl_bytes)
         msg += f"\n<b>FREE:</b> {free} | <b>UPTIME:</b> {currentTime}\n<b>DL:</b> {dlspeed}/s 🔻 | <b>UL:</b> {ulspeed}/s 🔺\n"
-        msg += f"\nOwner @nobita_o
     with status_reply_dict_lock:
         for chat_id in list(status_reply_dict.keys()):
             if status_reply_dict[chat_id] and msg != status_reply_dict[chat_id].text:
