@@ -1,7 +1,7 @@
 [![Nobita](https://telegra.ph/SR-Shoruv-08-18)](https://youtube.com/c/SolutionsofTechnology)
 
 # Nobita Mirror Bot
-# Owner [🅝🅞🅑🅘🅣🅐](https://t.me/srshoruv7)
+# Owner [SR Shoruv](https://t.me/srshoruv7)
 ![GitHub Repo stars](https://img.shields.io/github/stars/breakdowns/slam-mirrorbot?color=blue&style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/breakdowns/slam-tg-mirror-bot?color=green&style=flat)
 ![GitHub contributors](https://img.shields.io/github/contributors/breakdowns/slam-tg-mirror-bot?style=flat)
