@@ -1,4 +1,4 @@
-[![Nobita](https://telegra.ph/file/446a798a9ac1b8c9db91d.png)](https://youtu.be/Pk_TthHfLeE)
+[![Nobita](https://telegra.ph/SR-Shoruv-08-18)](https://youtube.com/c/SolutionsofTechnology)
 
 # Nobita Mirror Bot
 # Owner [🅝🅞🅑🅘🅣🅐](https://t.me/nobita_o)
