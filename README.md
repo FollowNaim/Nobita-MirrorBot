@@ -5,7 +5,7 @@
 
 ###
 [![telegram badge](https://img.shields.io/badge/CHANNEL-30302f?style=for-the-badge&logo=telegram)](https://t.me/mirror_club)
-[![mailid badge](https://img.shields.io/badge/NOBITA-30302f?style=for-the-badge&logo=gmail)](mailto:nobitaxw@gmail.com)
+[![mailid badge](https://img.shields.io/badge/Taki-30302f?style=for-the-badge&logo=gmail)](mailto:nobitaxw@gmail.com)
 
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Taki-Tachiibana/Nobita-MirrorBot?color=blue&style=flat)
@@ -144,7 +144,7 @@ Three buttons are already added of Drive Link, Index Link, and View Link, you ca
 - Hit the **DEPLOY TO HEROKU** button and follow the further instructions in the screen
 - Recommended to use 1 App in 1 Heroku accounts
 
-<p><a href = "https://dashboard.heroku.com/new?template=https://github.com/Naim57/Nobita-MirrorBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href = "https://dashboard.heroku.com/new?template=https://github.com/Taki-Tachiibana/Nobita-MirrorBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 - Using Service Accounts for uploading to avoid user rate limit.
 
