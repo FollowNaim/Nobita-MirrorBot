@@ -1,15 +1,20 @@
-[![Nobita](https://telegra.ph/SR-Shoruv-08-18)](https://youtube.com/c/SolutionsofTechnology)
+### [![Nobita](https://telegra.ph/file/243a87c8a42dde483b359.jpg)](https://nobitaa.cf)
 
-# Nobita Mirror Bot
-# Owner [SR Shoruv](https://t.me/srshoruv7)
-![GitHub Repo stars](https://img.shields.io/github/stars/breakdowns/slam-mirrorbot?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/breakdowns/slam-tg-mirror-bot?color=green&style=flat)
-![GitHub contributors](https://img.shields.io/github/contributors/breakdowns/slam-tg-mirror-bot?style=flat)
-![GitHub watchers](https://img.shields.io/github/watchers/breakdowns/slam-tg-mirror-bot)
-![Docker Pulls](https://img.shields.io/docker/pulls/breakdowns/mega-sdk-python?label=Docker%20Pull)
-[![Contactl](https://img.shields.io/badge/Contact%20Mel-!-red)](https://t.me/nobita_o)
+### [![Powered By](https://img.shields.io/badge/POWERED-BY--Taki-red?logo=success&style=for-the-badge&logo)](https://t.me/mirror_club)
 
-**Nobita Mirror Bot** is a _multipurpose_ Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
+
+###
+[![telegram badge](https://img.shields.io/badge/CHANNEL-30302f?style=for-the-badge&logo=telegram)](https://t.me/mirror_club)
+[![mailid badge](https://img.shields.io/badge/NOBITA-30302f?style=for-the-badge&logo=gmail)](mailto:nobitaxw@gmail.com)
+
+
+![GitHub Repo stars](https://img.shields.io/github/stars/naim57/Nobita-MirrorBot?color=blue&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/naim57/Nobita-MirrorBot?color=green&style=flat)
+![GitHub contributors](https://img.shields.io/github/contributors/Naim57/Nobita-MirrorBot?style=flat)
+![GitHub watchers](https://img.shields.io/github/watchers/naim57/Nobita-MirrorBot)
+[![Contactl](https://img.shields.io/badge/Contact%20Mel-!-red)](https://t.me/Taki_tachiibana)
+
+**Nobita Mirror Bot** is a multipurpose Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
 
 # Features supported:
 <details>
@@ -133,20 +138,19 @@ Three buttons are already added of Drive Link, Index Link, and View Link, you ca
 
 ## Deploying on Heroku
 
-- Give stars and Fork this repo then upload **token.pickle** to your forks, or you can upload your **token.pickle** to your Index and put your **token.pickle** link to **TOKEN_PICKLE_URL** (**NOTE**: If you didn't upload **token.pickle** uploading will not work).
+- Heroku Deploy is easy peasy! 😅 
+- Just 👇
+- Give stars and Fork this repo then upload **token.pickle** to your forks, (**NOTE**: If you didn't upload **token.pickle** uploading will not work).
 - Hit the **DEPLOY TO HEROKU** button and follow the further instructions in the screen
 - Recommended to use 1 App in 1 Heroku accounts
 
-<p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href = "https://dashboard.heroku.com/new?template=https://github.com/Naim57/Nobita-MirrorBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
-# Using Service Accounts for uploading to avoid user rate limit
+- Using Service Accounts for uploading to avoid user rate limit.
 
-# Contact Me
+# Thanks to
 
-[Telegram](https://t.me/nobita_o)
 
-# Credits
+[![Credits](https://img.shields.io/badge/Slam--Devs-red?logo=credits&style=for-the-badge&logo)](https://github.com/slamdevs)
 
-All Credits Goes to:
-
-[Nobita](https://t.me/nobita_o)
+[![Credits](https://img.shields.io/badge/Lzzy--12-blue?logo=credits&style=for-the-badge&logo)](https://github.com/lzzy12)
