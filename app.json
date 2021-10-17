@@ -88,10 +88,6 @@
         "value": "master",
         "required": true
       },
-      "UPTOBOX_TOKEN": {
-        "description": "Uptobox premium token to mirror uptobox links. Get it from https://uptobox.com/my_account.",
-        "required": false
-      },
       "MEGA_API_KEY": {
         "description": "Mega.nz api key to mirror mega.nz links. Get it from https://mega.nz/sdk.",
         "required": false
@@ -111,6 +107,11 @@
       "BLOCK_MEGA_LINKS": {
         "description": "If you want to remove mega.nz mirror support, set it to True.",
         "required": false
+      },
+      "BASE_URL_OF_BOT": {
+        "description": "Set base url to avoid bot auto sleep problem",
+        "value": "https://yourappname.herokuapp.com",
+        "required": true
       },
       "TORRENT_DIRECT_LIMIT": {
         "description": "To limit the Torrent/Direct mirror size, Leave space between number and unit. Available units is (gb or GB, tb or TB).",
@@ -144,22 +145,9 @@
         "description": "If you want the bot to ignore pending requests after it restarts, set this to True.",
         "required": false
       },
-      "SHORTENER": {
-        "description": "If you want to use shortener in Gdrive and index link.",
-        "required": false
-      },
-      "SHORTENER_API": {
-        "description": "Fill your shortener api key if you are using shortener.",
-        "required": false
-      },
       "TIMEZONE": {
         "description": "To change time zone in /stats command.",
-        "value": "Asia/Jakarta",
-        "required": false
-      },
-      "IMAGE_URL": {
-        "description": "Show Image/Logo in /start message, Use telegra.ph or any direct link image.",
-        "value": "https://telegra.ph/file/446a798a9ac1b8c9db91d.png",
+        "value": "Asia/Dhaka",
         "required": false
        },
       "TOKEN_PICKLE_URL": {
@@ -180,22 +168,6 @@
         "required": false
       },
       "BUTTON_FOUR_URL": {
-        "description": "Fill your URL if you are using extra buttons.",
-        "required": false
-      },
-      "BUTTON_FIVE_NAME": {
-        "description": "Extra buttons (optional).",
-        "required": false
-      },
-      "BUTTON_FIVE_URL": {
-        "description": "Fill your URL if you are using extra buttons.",
-        "required": false
-      },
-      "BUTTON_SIX_NAME": {
-        "description": "Extra buttons (optional).",
-        "required": false
-      },
-      "BUTTON_SIX_URL": {
         "description": "Fill your URL if you are using extra buttons.",
         "required": false
       },
