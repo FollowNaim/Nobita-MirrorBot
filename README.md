@@ -1,10 +1,13 @@
-### [![Nobita](https://telegra.ph/file/243a87c8a42dde483b359.jpg)](https://nobitaa.cf)
+```diff
+- [ DEAD REPO AND NO MORE UPDATE ]
+```
+### [![Nobita](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPKu2Wd-juWoNcxaP4yKE7a68Qaw1FwmesSQ&usqp=CAU)](https://nobitaa.cf)
 
 ### [![Powered By](https://img.shields.io/badge/POWERED-BY--Taki-red?logo=success&style=for-the-badge&logo)](https://t.me/mirror_club)
 
 
 ###
-[![telegram badge](https://img.shields.io/badge/CHANNEL-30302f?style=for-the-badge&logo=telegram)](https://t.me/mirror_club)
+[![telegram badge](https://img.shields.io/badge/CHANNEL-30302f?style=for-the-badge&logo=telegram)](https://t.me/Taki_Tachiibana)
 [![mailid badge](https://img.shields.io/badge/Taki-30302f?style=for-the-badge&logo=gmail)](mailto:nobitaxw@gmail.com)
 
 
