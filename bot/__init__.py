@@ -276,6 +276,13 @@ try:
 except KeyError:
     VIEW_LINK = False
 try:
+    BASE_URL = getConfig('BASE_URL_OF_BOT')
+    if len(BASE_URL) == 0:
+        raise KeyError
+except KeyError:
+    logging.warning('BASE_URL_OF_BOT not provided!')
+    BASE_URL = None
+try:
     STOP_DUPLICATE_CLONE = getConfig('STOP_DUPLICATE_CLONE')
     if STOP_DUPLICATE_CLONE.lower() == 'true':
         STOP_DUPLICATE_CLONE = True
