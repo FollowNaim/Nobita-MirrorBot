@@ -3,11 +3,11 @@
 ```
 ### [![Nobita](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPKu2Wd-juWoNcxaP4yKE7a68Qaw1FwmesSQ&usqp=CAU)](https://nobitaa.cf)
 
-### [![Powered By](https://img.shields.io/badge/POWERED-BY--Taki-red?logo=success&style=for-the-badge&logo)](https://t.me/mirror_club)
+### [![Powered By](https://img.shields.io/badge/POWERED-BY--Taki-red?logo=success&style=for-the-badge&logo)](https://t.me/Taki_Tachiibana)
 
 
 ###
-[![telegram badge](https://img.shields.io/badge/CHANNEL-30302f?style=for-the-badge&logo=telegram)](https://t.me/Taki_Tachiibana)
+[![telegram badge](https://img.shields.io/badge/CHANNEL-30302f?style=for-the-badge&logo=telegram)](https://t.me/Mirror_Club)
 [![mailid badge](https://img.shields.io/badge/Taki-30302f?style=for-the-badge&logo=gmail)](mailto:nobitaxw@gmail.com)
 
 
