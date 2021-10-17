@@ -154,6 +154,6 @@ Three buttons are already added of Drive Link, Index Link, and View Link, you ca
 # Thanks to
 
 
-[![Credits](https://img.shields.io/badge/Slam--Devs-red?logo=credits&style=for-the-badge&logo)](https://github.com/slamdevs)
+[![Credits](https://img.shields.io/badge/Slam--Devs-red?logo=credits&style=for-the-badge&logo)](https://github.com/breakdowns)
 
 [![Credits](https://img.shields.io/badge/Lzzy--12-blue?logo=credits&style=for-the-badge&logo)](https://github.com/lzzy12)
