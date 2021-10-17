@@ -8,10 +8,10 @@
 [![mailid badge](https://img.shields.io/badge/NOBITA-30302f?style=for-the-badge&logo=gmail)](mailto:nobitaxw@gmail.com)
 
 
-![GitHub Repo stars](https://img.shields.io/github/stars/naim57/Nobita-MirrorBot?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/naim57/Nobita-MirrorBot?color=green&style=flat)
-![GitHub contributors](https://img.shields.io/github/contributors/Naim57/Nobita-MirrorBot?style=flat)
-![GitHub watchers](https://img.shields.io/github/watchers/naim57/Nobita-MirrorBot)
+![GitHub Repo stars](https://img.shields.io/github/stars/Taki-Tachiibana/Nobita-MirrorBot?color=blue&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/Taki-Tachiibana/Nobita-MirrorBot?color=green&style=flat)
+![GitHub contributors](https://img.shields.io/github/contributors/Taki-Tachiibana/Nobita-MirrorBot?style=flat)
+![GitHub watchers](https://img.shields.io/github/watchers/Taki-Tachiibana/Nobita-MirrorBot)
 [![Contactl](https://img.shields.io/badge/Contact%20Mel-!-red)](https://t.me/Taki_tachiibana)
 
 **Nobita Mirror Bot** is a multipurpose Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
